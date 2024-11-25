@@ -19,4 +19,4 @@ function listenToclick(e) {
   console.log(template);
   document.getElementById("temp").innerText = template;
 }
-document.getElementById("mybtn").addEventListener("click", listenToclick);
+document.getElementById("myForm").addEventListener("submit", listenToclick);
