@@ -1,6 +1,6 @@
 function addsum(s1, s2, s3, s4, s5, s6, name) {
   const total = s1 + s2 + s3 + s4 + s5 + s6;
-  const avg = total / 6;
+  const avg = total / 600;
   const percentage = avg * 100;
   return `The student ${name} Total marks ${total} avg is ${avg} and the Percentage ${percentage}%`;
 }
