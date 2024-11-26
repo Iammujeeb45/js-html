@@ -8,18 +8,21 @@
   </head>
   <body>
     <section
-      class="w-full h-screen  flex justify-center items-center"
+      class="w-full h-screen flex justify-center items-center overflow-scroll"
     >
-    <div class="absolute w-full h-screen ">
-      <img class="w-full h-screen " src="https://waifu2x.booru.pics/outfiles/76a76a2ace356003ccee7c6ee1103d10715cfea1_s2_n3_y2.png">
-    </div>
+      <div class="absolute w-full h-screen">
+        <img
+          class="w-full h-screen"
+          src="https://waifu2x.booru.pics/outfiles/76a76a2ace356003ccee7c6ee1103d10715cfea1_s2_n3_y2.png"
+        />
+      </div>
       <form
         id="myForm"
-        class="flex w-2/4 h-2/3  shadow-2xl flex-col overflow-scroll rounded-lg relative backdrop-opacity-5 backdrop-invert bg-white/5"
+        class="flex w-2/4 h-2/3 shadow-2xl flex-col overflow-scroll rounded-lg relative backdrop-opacity-5 backdrop-invert bg-white/5"
       >
         <div class="flex mt-5 pl-5">
           <span
-            class="text-4xl font-bold text-white underline decoration-lime-600 "
+            class="text-4xl font-bold text-white underline decoration-lime-600"
             >Total Marks</span
           >
         </div>
@@ -34,7 +37,7 @@
             type="text"
             id="myname"
             aria-describedby="helper-text-explanation"
-            class=" border border-green-900 text-gray-900 text-l rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-72 p-2.5  dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="border border-green-900 text-gray-900 text-l rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-40 p-2.5 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
             required
           />
         </div>
@@ -124,9 +127,15 @@
             />
           </div>
 
-          <button type="submit" id="myBtn" class="text-black bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-bold rounded-lg text-2xl px-5 py-5 text-center me-2 mb-2 w-72">Submit</button>
+          <button
+            type="submit"
+            id="myBtn"
+            class="text-black bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-bold rounded-lg text-2xl px-5 py-5 text-center me-2 mb-2 w-60"
+          >
+            Submit
+          </button>
         </div>
-        <span class="mt-5 text-white font-bold text-2xl" id="temp"></span>
+        <span class="mt-5 text-lime-300 font-bold text-2xl bg-black" id="temp"></span>
       </form>
     </section>
   </body>
