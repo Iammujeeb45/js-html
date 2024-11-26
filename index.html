@@ -18,7 +18,7 @@
       </div>
       <form
         id="myForm"
-        class="flex w-2/4 h-2/3 shadow-2xl flex-col overflow-scroll rounded-lg relative backdrop-opacity-5 backdrop-invert bg-white/5"
+        class="flex w-2/4 h-2/3 shadow-2xl flex-col overflow-scroll rounded-lg relative backdrop-opacity-5 backdrop-invert bg-white/5 "
       >
         <div class="flex mt-5 pl-5">
           <span
@@ -26,7 +26,7 @@
             >Total Marks</span
           >
         </div>
-        <div class="flex p-5 justify-center items-center flex-col">
+        <div class="flex p-3 justify-center items-center flex-col mt-5">
           <label
             for="number-input"
             class="block mb-2 text-xl font-bold text-white"
@@ -126,16 +126,29 @@
               required
             />
           </div>
+        </div>
 
+        <div class="flex w-full p-3">
           <button
             type="submit"
             id="myBtn"
-            class="text-black bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-bold rounded-lg text-2xl px-5 py-5 text-center me-2 mb-2 w-60"
+            class="text-black bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-bold rounded-lg text-l py-3 text-center me-2 mb-2 w-1/2"
           >
             Submit
           </button>
+
+          <button
+            id="resetButton"
+            class="text-black bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-bold rounded-lg text-l py-3 text-center me-2 mb-2 w-1/2"
+          >
+            Renter
+          </button>
         </div>
-        <span class="mt-5 text-lime-300 font-bold text-2xl bg-black" id="temp"></span>
+
+        <span
+          class="mt-5 text-lime-300 font-bold text-2xl bg-black"
+          id="temp"
+        ></span>
       </form>
     </section>
   </body>
