@@ -16,7 +16,7 @@ function listenToclick(e) {
   const myName = String(document.getElementById("myname").value);
 
   const template = addsum(s1, s2, s3, s4, s5, s6, myName);
-  console.log(template);
+
   document.getElementById("temp").innerText = template;
 }
 document.getElementById("myForm").addEventListener("submit", listenToclick);

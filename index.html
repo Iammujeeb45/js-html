@@ -8,30 +8,33 @@
   </head>
   <body>
     <section
-      class="w-full h-screen bg-fuchsia-200 flex justify-center items-center"
+      class="w-full h-screen  flex justify-center items-center"
     >
+    <div class="absolute w-full h-screen ">
+      <img class="w-full h-screen " src="https://waifu2x.booru.pics/outfiles/76a76a2ace356003ccee7c6ee1103d10715cfea1_s2_n3_y2.png">
+    </div>
       <form
         id="myForm"
-        class="flex w-2/4 h-2/3 bg-pink-500 shadow-2xl flex-col overflow-scroll rounded-lg"
+        class="flex w-2/4 h-2/3  shadow-2xl flex-col overflow-scroll rounded-lg relative backdrop-opacity-5 backdrop-invert bg-white/5"
       >
         <div class="flex mt-5 pl-5">
           <span
-            class="text-4xl font-bold text-white underline decoration-fuchsia-300"
+            class="text-4xl font-bold text-white underline decoration-lime-600 "
             >Total Marks</span
           >
         </div>
-        <div class="flex p-5 justify-center items-center flex-col ">
+        <div class="flex p-5 justify-center items-center flex-col">
           <label
             for="number-input"
-            class="block mb-2 text-xl font-bold text-white "
-            >Enter your Name</label
+            class="block mb-2 text-xl font-bold text-white"
+            >Enter your Name *</label
           >
 
           <input
             type="text"
             id="myname"
             aria-describedby="helper-text-explanation"
-            class="bg-red-50 border border-red-900 text-gray-900 text-l rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-72 p-2.5 dark:bg-white  dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 "
+            class=" border border-green-900 text-gray-900 text-l rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-72 p-2.5  dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
             required
           />
         </div>
@@ -40,21 +43,21 @@
             <label
               for="number-input"
               class="block mb-2 text-xl font-bold text-white"
-              >Marks in Telugu</label
+              >Marks in Telugu *</label
             >
             <input
               type="number"
               id="s1"
               aria-describedby="helper-text-explanation"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-l rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white dark:border-gray-600 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" required
-              
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-l rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white dark:border-gray-600 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
             />
           </div>
           <div class="p-5">
             <label
               for="number-input"
               class="block mb-2 text-xl font-bold text-white"
-              >Marks in Hindi</label
+              >Marks in Hindi *</label
             >
             <input
               type="number"
@@ -68,7 +71,7 @@
             <label
               for="number-input"
               class="block mb-2 text-xl font-bold text-white"
-              >Marks in English</label
+              >Marks in English *</label
             >
             <input
               type="number"
@@ -82,7 +85,7 @@
             <label
               for="number-input"
               class="block mb-2 text-xl font-bold text-white"
-              >Marks in Maths</label
+              >Marks in Maths *</label
             >
             <input
               type="number"
@@ -96,7 +99,7 @@
             <label
               for="number-input"
               class="block mb-2 text-xl font-bold text-white"
-              >Marks in Physics</label
+              >Marks in Physics *</label
             >
             <input
               type="number"
@@ -110,7 +113,7 @@
             <label
               for="number-input"
               class="block mb-2 text-xl font-bold text-white"
-              >Marks in Social</label
+              >Marks in Social *</label
             >
             <input
               type="number"
@@ -121,7 +124,7 @@
             />
           </div>
 
-          <button type="submit" id="myBtn" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-bold rounded-lg text-3xl px-5 py-5 text-center w-96 mt-5">submit</button>
+          <button type="submit" id="myBtn" class="text-black bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-bold rounded-lg text-2xl px-5 py-5 text-center me-2 mb-2 w-72">Submit</button>
         </div>
         <span class="mt-5 text-white font-bold text-2xl" id="temp"></span>
       </form>
